@@ -1,0 +1,289 @@
+
+    body {
+      background-color: #dcdcdc;
+      font-family: Verdana, Arial, sans-serif;
+      font-size: 11px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      color: #336699;
+      text-decoration: none;
+      padding-left: 10px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      width: 800px;
+      margin: 20px auto;
+      background-color: #ffffff;
+      border: 3px double #999;
+    }
+
+    header {
+      background-color: #f2e6f2;
+      border-bottom: 2px solid #999;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      font-size: 11px;
+      color: #555;
+    }
+
+    .menu {
+      background-color: #eaeaea;
+      border-bottom: 1px solid #999;
+      text-align: center;
+      padding: 6px;
+    }
+
+    .menu a {
+      margin: 0 8px;
+      font-weight: bold;
+      font-size: 11px;
+    }
+
+    .layout {
+      display: table;
+      width: 100%;
+    }
+
+    .sidebar {
+      display: table-cell;
+      width: 200px;
+      background-color: #f5f5f5;
+      border-right: 1px solid #999;
+      padding: 10px;
+      vertical-align: top;
+    }
+
+    .main {
+      display: table-cell;
+      padding: 15px;
+      vertical-align: top;
+    }
+
+    .box {
+      border: 1px solid #aaa;
+      margin-bottom: 15px;
+      background-color: #ffffff;
+    }
+
+    .box h2 {
+      margin: 0;
+      padding: 5px;
+      font-size: 12px;
+      background-color: #f2e6f2;
+      border-bottom: 1px solid #aaa;
+    }
+
+    .box p {
+      padding: 8px;
+      margin: 0;
+      line-height: 1.4;
+    }
+
+    .category a {
+      display: block;
+      padding: 3px 0;
+    }
+
+    .item {
+      border-bottom: 1px dotted #aaa;
+      padding: 8px 0;
+    }
+
+    .item:last-child {
+      border-bottom: none;
+    }
+
+    .item b {
+      font-size: 12px;
+    }
+
+     .mod-preview {
+      width: 200px;
+      border: 1px solid #999;
+      padding: 3px;
+      background-color: #fff;
+      margin-bottom: 6px;
+    }
+
+     .mod {
+      border-bottom: 1px dotted #aaa;
+      padding: 10px 0;
+      }
+
+      .mod:last-child { border-bottom: none; }
+
+      .mod-title {
+      font-weight: bold;
+      font-size: 12px;
+      padding-left: 10px;
+      }
+
+      .mod-meta {
+      font-size: 10px;
+      color: #555;
+      padding-left: 10px;
+      }
+
+      .mod-desc {
+      margin: 5px 0;
+      line-height: 1.4;
+      }
+
+      .pixel-grid {
+      text-align: center;
+      padding: 10px;
+      }
+
+
+      .pixel-item {
+      display: inline-block;
+      margin: 8px;
+      text-align: center;
+      vertical-align: top;
+      }
+
+
+      .pixel-item img {
+      image-rendering: pixelated;
+      border: 1px solid #999;
+      padding: 4px;
+      background-color: #fff;
+      }
+
+
+      .pixel-title {
+      margin-top: 4px;
+      font-size: 10px;
+      }
+
+      .pixel-download {
+      display: inline-block;
+      margin-top: 4px;
+      padding: 2px 6px;
+      font-size: 10px;
+      border: 1px solid #999;
+      background-color: #f0f0f0;
+      color: #000;
+      text-decoration: none;
+      }
+
+
+      .pixel-download:hover {
+      background-color: #e0e0e0;
+      }
+
+      /* CONTENEDOR GENERAL */
+.contact-section {
+  margin-top: 15px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+}
+
+/* TÍTULO */
+.section-title {
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 4px;
+  background-color: #e6e6fa;
+  border: 1px solid #999;
+  text-align: center;
+}
+
+/* GRID CLÁSICO */
+.contact-grid {
+  display: table;
+  width: 100%;
+  border-spacing: 10px;
+}
+
+/* TARJETAS */
+.card {
+  display: table-cell;
+  vertical-align: top;
+  border: 1px solid #999;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.card-light {
+  display: table-cell;
+  vertical-align: top;
+  border: 1px solid #aaa;
+  background-color: #f5f5f5;
+  padding: 10px;
+  width: 200px;
+}
+
+
+.contact-form textarea {
+  width: 100%;
+  height: 100px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+  border: 1px solid #999;
+  padding: 5px;
+  background-color: #fff;
+  resize: none;
+}
+
+
+.btn-send {
+  margin-top: 8px;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  border: 1px solid #666;
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+
+.btn-send:hover {
+  background-color: #dcdcdc;
+}
+
+
+.feedback {
+  margin-top: 6px;
+  font-size: 10px;
+  color: #555;
+}
+
+
+.contact-info p {
+  margin: 0 0 6px 0;
+  line-height: 1.4;
+}
+
+.contact-info a {
+  color: #336699;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* FADE IN SIMPLE (OPCIONAL) */
+.fade-in {
+  animation: fadein 0.6s ease-in;
+}
+
+
